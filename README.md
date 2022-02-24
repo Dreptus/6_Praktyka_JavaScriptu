@@ -1,0 +1,1 @@
+# 6_Praktyka_JavaScriptu
