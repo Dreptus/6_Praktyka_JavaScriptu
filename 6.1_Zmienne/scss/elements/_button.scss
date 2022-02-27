@@ -1,0 +1,36 @@
+#buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50%;
+
+  .btn {
+    display: inline-block;
+    min-width: 100px;
+    margin: 10px auto 0 auto;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(41, 40, 40);
+    color: $button-hover-color;
+    opacity: 0.65;
+    background: $button-color;
+
+    &:hover {
+      background: $button-hover-color;
+      color: $button-color;
+      opacity: 1;
+    
+    }
+   
+  }
+  .btn-reset {
+    margin-top: 25px;
+    text-align: center;
+    justify-content: center;
+    
+  }
+}

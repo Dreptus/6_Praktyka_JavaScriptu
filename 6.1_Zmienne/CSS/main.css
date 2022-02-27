@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #c8f2f8;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50%;
+}
+#buttons .btn {
+  display: inline-block;
+  min-width: 100px;
+  margin: 10px auto 0 auto;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #292828;
+  color: #be1313;
+  opacity: 0.65;
+  background: lime;
+}
+#buttons .btn:hover {
+  background: #be1313;
+  color: lime;
+  opacity: 1;
+}
+#buttons .btn-reset {
+  margin-top: 25px;
+  text-align: center;
+  justify-content: center;
+}
+
+#messages {
+  text-align: center;
+  height: 150px;
+  padding-top: 50px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=main.css.map */
